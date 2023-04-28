@@ -1,222 +1,342 @@
-<head><script defer src="main.bundle.js"></script></head>Html Webpack Plugin:
-<pre>
-  Error: Child compilation failed:
-  Module not found: Error: Can't resolve './img/wires.jpeg' in 'D:\konung-nvkz.github.io\src'
-  ModuleNotFoundError: Module not found: Error: Can't resolve './img/wires.jpeg' in 'D:\konung-nvkz.github.io\src  '
-      at D:\konung-nvkz.github.io\node_modules\webpack\lib\Compilation.js:2016:28
-      at D:\konung-nvkz.github.io\node_modules\webpack\lib\NormalModuleFactory.js:798:13
-      at eval (eval at create (D:\konung-nvkz.github.io\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anon  ymous>:10:1)
-      at D:\konung-nvkz.github.io\node_modules\webpack\lib\NormalModuleFactory.js:270:22
-      at eval (eval at create (D:\konung-nvkz.github.io\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anon  ymous>:9:1)
-      at D:\konung-nvkz.github.io\node_modules\webpack\lib\NormalModuleFactory.js:434:22
-      at D:\konung-nvkz.github.io\node_modules\webpack\lib\NormalModuleFactory.js:116:11
-      at D:\konung-nvkz.github.io\node_modules\webpack\lib\NormalModuleFactory.js:670:25
-      at D:\konung-nvkz.github.io\node_modules\webpack\lib\NormalModuleFactory.js:855:8
-      at D:\konung-nvkz.github.io\node_modules\webpack\lib\NormalModuleFactory.js:975:5
-      at D:\konung-nvkz.github.io\node_modules\neo-async\async.js:6883:13
-      at Array.<anonymous> (D:\konung-nvkz.github.io\node_modules\webpack\lib\NormalModuleFactory.js:950:14)
-      at arrayEachFunc (D:\konung-nvkz.github.io\node_modules\neo-async\async.js:2517:19)
-      at Object.parallel (D:\konung-nvkz.github.io\node_modules\neo-async\async.js:6858:9)
-      at NormalModuleFactory._resolveResourceErrorHints (D:\konung-nvkz.github.io\node_modules\webpack\lib\Normal  ModuleFactory.js:873:12)
-      at D:\konung-nvkz.github.io\node_modules\webpack\lib\NormalModuleFactory.js:834:18
-      at finishWithoutResolve (D:\konung-nvkz.github.io\node_modules\enhanced-resolve\lib\Resolver.js:312:11)
-      at D:\konung-nvkz.github.io\node_modules\enhanced-resolve\lib\Resolver.js:386:15
-      at D:\konung-nvkz.github.io\node_modules\enhanced-resolve\lib\Resolver.js:435:5
-      at eval (eval at create (D:\konung-nvkz.github.io\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anon  ymous>:16:1)
-      at D:\konung-nvkz.github.io\node_modules\enhanced-resolve\lib\Resolver.js:435:5
-      at eval (eval at create (D:\konung-nvkz.github.io\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anon  ymous>:27:1)
-      at D:\konung-nvkz.github.io\node_modules\enhanced-resolve\lib\DescriptionFilePlugin.js:87:43
-      at D:\konung-nvkz.github.io\node_modules\enhanced-resolve\lib\Resolver.js:435:5
-      at eval (eval at create (D:\konung-nvkz.github.io\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anon  ymous>:15:1)
-      at D:\konung-nvkz.github.io\node_modules\enhanced-resolve\lib\Resolver.js:435:5
-      at eval (eval at create (D:\konung-nvkz.github.io\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anon  ymous>:15:1)
-      at D:\konung-nvkz.github.io\node_modules\enhanced-resolve\lib\Resolver.js:435:5
-      at eval (eval at create (D:\konung-nvkz.github.io\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anon  ymous>:16:1)
-      at D:\konung-nvkz.github.io\node_modules\enhanced-resolve\lib\RootsPlugin.js:37:38
-      at _next2 (eval at create (D:\konung-nvkz.github.io\node_modules\tapable\lib\HookCodeFactory.js:33:10), <an  onymous>:8:1)
-      at eval (eval at create (D:\konung-nvkz.github.io\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anon  ymous>:31:1)
-      at D:\konung-nvkz.github.io\node_modules\enhanced-resolve\lib\ConditionalPlugin.js:40:47
-      at _next1 (eval at create (D:\konung-nvkz.github.io\node_modules\tapable\lib\HookCodeFactory.js:33:10), <an  onymous>:23:1)
-      at eval (eval at create (D:\konung-nvkz.github.io\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anon  ymous>:46:1)
-      at D:\konung-nvkz.github.io\node_modules\enhanced-resolve\lib\ConditionalPlugin.js:40:47
-      at _next0 (eval at create (D:\konung-nvkz.github.io\node_modules\tapable\lib\HookCodeFactory.js:33:10), <an  onymous>:38:1)
-      at eval (eval at create (D:\konung-nvkz.github.io\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anon  ymous>:60:1)
-      at D:\konung-nvkz.github.io\node_modules\enhanced-resolve\lib\Resolver.js:435:5
-      at eval (eval at create (D:\konung-nvkz.github.io\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anon  ymous>:27:1)
-      at D:\konung-nvkz.github.io\node_modules\enhanced-resolve\lib\DescriptionFilePlugin.js:87:43
-      at D:\konung-nvkz.github.io\node_modules\enhanced-resolve\lib\Resolver.js:435:5
-      at eval (eval at create (D:\konung-nvkz.github.io\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anon  ymous>:16:1)
-      at D:\konung-nvkz.github.io\node_modules\enhanced-resolve\lib\Resolver.js:435:5
-      at eval (eval at create (D:\konung-nvkz.github.io\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anon  ymous>:15:1)
-      at D:\konung-nvkz.github.io\node_modules\enhanced-resolve\lib\DirectoryExistsPlugin.js:41:15
-      at process.processTicksAndRejections (node:internal/process/task_queues:81:21)
-  Module not found: Error: Can't resolve './img/lux.jpeg' in 'D:\konung-nvkz.github.io\src'
-  ModuleNotFoundError: Module not found: Error: Can't resolve './img/lux.jpeg' in 'D:\konung-nvkz.github.io\src'
-      at D:\konung-nvkz.github.io\node_modules\webpack\lib\Compilation.js:2016:28
-      at D:\konung-nvkz.github.io\node_modules\webpack\lib\NormalModuleFactory.js:798:13
-      at eval (eval at create (D:\konung-nvkz.github.io\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anon  ymous>:10:1)
-      at D:\konung-nvkz.github.io\node_modules\webpack\lib\NormalModuleFactory.js:270:22
-      at eval (eval at create (D:\konung-nvkz.github.io\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anon  ymous>:9:1)
-      at D:\konung-nvkz.github.io\node_modules\webpack\lib\NormalModuleFactory.js:434:22
-      at D:\konung-nvkz.github.io\node_modules\webpack\lib\NormalModuleFactory.js:116:11
-      at D:\konung-nvkz.github.io\node_modules\webpack\lib\NormalModuleFactory.js:670:25
-      at D:\konung-nvkz.github.io\node_modules\webpack\lib\NormalModuleFactory.js:855:8
-      at D:\konung-nvkz.github.io\node_modules\webpack\lib\NormalModuleFactory.js:975:5
-      at D:\konung-nvkz.github.io\node_modules\neo-async\async.js:6883:13
-      at Array.<anonymous> (D:\konung-nvkz.github.io\node_modules\webpack\lib\NormalModuleFactory.js:950:14)
-      at arrayEachFunc (D:\konung-nvkz.github.io\node_modules\neo-async\async.js:2517:19)
-      at Object.parallel (D:\konung-nvkz.github.io\node_modules\neo-async\async.js:6858:9)
-      at NormalModuleFactory._resolveResourceErrorHints (D:\konung-nvkz.github.io\node_modules\webpack\lib\Normal  ModuleFactory.js:873:12)
-      at D:\konung-nvkz.github.io\node_modules\webpack\lib\NormalModuleFactory.js:834:18
-      at finishWithoutResolve (D:\konung-nvkz.github.io\node_modules\enhanced-resolve\lib\Resolver.js:312:11)
-      at D:\konung-nvkz.github.io\node_modules\enhanced-resolve\lib\Resolver.js:386:15
-      at D:\konung-nvkz.github.io\node_modules\enhanced-resolve\lib\Resolver.js:435:5
-      at eval (eval at create (D:\konung-nvkz.github.io\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anon  ymous>:16:1)
-      at D:\konung-nvkz.github.io\node_modules\enhanced-resolve\lib\Resolver.js:435:5
-      at eval (eval at create (D:\konung-nvkz.github.io\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anon  ymous>:27:1)
-      at D:\konung-nvkz.github.io\node_modules\enhanced-resolve\lib\DescriptionFilePlugin.js:87:43
-      at D:\konung-nvkz.github.io\node_modules\enhanced-resolve\lib\Resolver.js:435:5
-      at eval (eval at create (D:\konung-nvkz.github.io\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anon  ymous>:15:1)
-      at D:\konung-nvkz.github.io\node_modules\enhanced-resolve\lib\Resolver.js:435:5
-      at eval (eval at create (D:\konung-nvkz.github.io\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anon  ymous>:15:1)
-      at D:\konung-nvkz.github.io\node_modules\enhanced-resolve\lib\Resolver.js:435:5
-      at eval (eval at create (D:\konung-nvkz.github.io\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anon  ymous>:16:1)
-      at D:\konung-nvkz.github.io\node_modules\enhanced-resolve\lib\RootsPlugin.js:37:38
-      at _next2 (eval at create (D:\konung-nvkz.github.io\node_modules\tapable\lib\HookCodeFactory.js:33:10), <an  onymous>:8:1)
-      at eval (eval at create (D:\konung-nvkz.github.io\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anon  ymous>:31:1)
-      at D:\konung-nvkz.github.io\node_modules\enhanced-resolve\lib\ConditionalPlugin.js:40:47
-      at _next1 (eval at create (D:\konung-nvkz.github.io\node_modules\tapable\lib\HookCodeFactory.js:33:10), <an  onymous>:23:1)
-      at eval (eval at create (D:\konung-nvkz.github.io\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anon  ymous>:46:1)
-      at D:\konung-nvkz.github.io\node_modules\enhanced-resolve\lib\ConditionalPlugin.js:40:47
-      at _next0 (eval at create (D:\konung-nvkz.github.io\node_modules\tapable\lib\HookCodeFactory.js:33:10), <an  onymous>:38:1)
-      at eval (eval at create (D:\konung-nvkz.github.io\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anon  ymous>:60:1)
-      at D:\konung-nvkz.github.io\node_modules\enhanced-resolve\lib\Resolver.js:435:5
-      at eval (eval at create (D:\konung-nvkz.github.io\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anon  ymous>:27:1)
-      at D:\konung-nvkz.github.io\node_modules\enhanced-resolve\lib\DescriptionFilePlugin.js:87:43
-      at D:\konung-nvkz.github.io\node_modules\enhanced-resolve\lib\Resolver.js:435:5
-      at eval (eval at create (D:\konung-nvkz.github.io\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anon  ymous>:16:1)
-      at D:\konung-nvkz.github.io\node_modules\enhanced-resolve\lib\Resolver.js:435:5
-      at eval (eval at create (D:\konung-nvkz.github.io\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anon  ymous>:15:1)
-      at D:\konung-nvkz.github.io\node_modules\enhanced-resolve\lib\DirectoryExistsPlugin.js:41:15
-      at process.processTicksAndRejections (node:internal/process/task_queues:81:21)
-  
-  - Compilation.js:2016 
-    [konung-nvkz.github.io]/[webpack]/lib/Compilation.js:2016:28
-  
-  - NormalModuleFactory.js:798 
-    [konung-nvkz.github.io]/[webpack]/lib/NormalModuleFactory.js:798:13
-  
-  
-  - NormalModuleFactory.js:270 
-    [konung-nvkz.github.io]/[webpack]/lib/NormalModuleFactory.js:270:22
-  
-  
-  - NormalModuleFactory.js:434 
-    [konung-nvkz.github.io]/[webpack]/lib/NormalModuleFactory.js:434:22
-  
-  - NormalModuleFactory.js:116 
-    [konung-nvkz.github.io]/[webpack]/lib/NormalModuleFactory.js:116:11
-  
-  - NormalModuleFactory.js:670 
-    [konung-nvkz.github.io]/[webpack]/lib/NormalModuleFactory.js:670:25
-  
-  - NormalModuleFactory.js:855 
-    [konung-nvkz.github.io]/[webpack]/lib/NormalModuleFactory.js:855:8
-  
-  - NormalModuleFactory.js:975 
-    [konung-nvkz.github.io]/[webpack]/lib/NormalModuleFactory.js:975:5
-  
-  - async.js:6883 
-    [konung-nvkz.github.io]/[neo-async]/async.js:6883:13
-  
-  - NormalModuleFactory.js:950 Array.<anonymous>
-    [konung-nvkz.github.io]/[webpack]/lib/NormalModuleFactory.js:950:14
-  
-  - async.js:2517 arrayEachFunc
-    [konung-nvkz.github.io]/[neo-async]/async.js:2517:19
-  
-  - async.js:6858 Object.parallel
-    [konung-nvkz.github.io]/[neo-async]/async.js:6858:9
-  
-  - NormalModuleFactory.js:873 NormalModuleFactory._resolveResourceErrorHints
-    [konung-nvkz.github.io]/[webpack]/lib/NormalModuleFactory.js:873:12
-  
-  - NormalModuleFactory.js:834 
-    [konung-nvkz.github.io]/[webpack]/lib/NormalModuleFactory.js:834:18
-  
-  - Resolver.js:312 finishWithoutResolve
-    [konung-nvkz.github.io]/[enhanced-resolve]/lib/Resolver.js:312:11
-  
-  - Resolver.js:386 
-    [konung-nvkz.github.io]/[enhanced-resolve]/lib/Resolver.js:386:15
-  
-  - Resolver.js:435 
-    [konung-nvkz.github.io]/[enhanced-resolve]/lib/Resolver.js:435:5
-  
-  
-  - Resolver.js:435 
-    [konung-nvkz.github.io]/[enhanced-resolve]/lib/Resolver.js:435:5
-  
-  
-  - DescriptionFilePlugin.js:87 
-    [konung-nvkz.github.io]/[enhanced-resolve]/lib/DescriptionFilePlugin.js:87:43
-  
-  - Resolver.js:435 
-    [konung-nvkz.github.io]/[enhanced-resolve]/lib/Resolver.js:435:5
-  
-  
-  - Resolver.js:435 
-    [konung-nvkz.github.io]/[enhanced-resolve]/lib/Resolver.js:435:5
-  
-  
-  - Resolver.js:435 
-    [konung-nvkz.github.io]/[enhanced-resolve]/lib/Resolver.js:435:5
-  
-  
-  - RootsPlugin.js:37 
-    [konung-nvkz.github.io]/[enhanced-resolve]/lib/RootsPlugin.js:37:38
-  
-  
-  
-  - ConditionalPlugin.js:40 
-    [konung-nvkz.github.io]/[enhanced-resolve]/lib/ConditionalPlugin.js:40:47
-  
-  
-  
-  - ConditionalPlugin.js:40 
-    [konung-nvkz.github.io]/[enhanced-resolve]/lib/ConditionalPlugin.js:40:47
-  
-  
-  
-  - Resolver.js:435 
-    [konung-nvkz.github.io]/[enhanced-resolve]/lib/Resolver.js:435:5
-  
-  
-  - DescriptionFilePlugin.js:87 
-    [konung-nvkz.github.io]/[enhanced-resolve]/lib/DescriptionFilePlugin.js:87:43
-  
-  - Resolver.js:435 
-    [konung-nvkz.github.io]/[enhanced-resolve]/lib/Resolver.js:435:5
-  
-  
-  - Resolver.js:435 
-    [konung-nvkz.github.io]/[enhanced-resolve]/lib/Resolver.js:435:5
-  
-  
-  - DirectoryExistsPlugin.js:41 
-    [konung-nvkz.github.io]/[enhanced-resolve]/lib/DirectoryExistsPlugin.js:41:15
-  
-  - task_queues:81 process.processTicksAndRejections
-    node:internal/process/task_queues:81:21
-  
-  - Module not found: Error: Can't resolve './img/lux.jpeg' in 'D:\konung-nvkz.github.io\src'
-  
-  - ModuleNotFoundError: Module not found: Error: Can't resolve './img/lux.jpeg' in 'D:\konung-nvkz.github.io\src    '
-  
-  - Compilation.js:2016 
-    [konung-nvkz.github.io]/[webpack]/lib/Compilation.js:2016:28
-  
-  - NormalModuleFactory.js:798 
-    [konung-nvkz.github.io]/[webpack]/lib/NormalModuleFactory.js:798:13
-  
-</pre>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electricity42</title>
+    <link rel="stylesheet" href="assets/style.css">
+<script defer src="main.bundle.js"></script></head>
+<body>
+    <header class="header">
+        <div class="header__left-block">
+            <div class="header__logo">
+                <img src="img/logo.png" alt="Логотип">
+            </div>
+            <nav class="header__links">
+                <a href="#" class="header__link">Наши услуги</a>
+                <a href="#" class="header__link">Примеры работ</a>
+            </nav>
+        </div>
+        <div class="header__right-block">
+            <button class="btn btn_white" data-modal>Связаться с нами</button>
+        </div>
+    </header>
+    <div class="sidepanel">
+        <div class="sidepanel__text"><span>Социальные сети</span></div>
+        <div class="sidepanel__divider"></div>
+        <a href="#" class="sidepanel__icon">
+            <img src="img/instagram.svg" alt="instagram">
+        </a>
+        <a href="#" class="sidepanel__icon">
+            <img src="img/facebook.svg" alt="facebook">
+        </a>
+    </div>
+
+    <div class="preview">
+        <div class="bgc_blue"></div>
+        <div class="container">
+            <div class="tabcontainer">
+                <div class="tabcontent">
+                    <img src="img/elec.jpg" alt="elec">
+                    <div class="tabcontent__descr">
+                        Здравствуйте! Мы готовы стать вашим личным помощником во всех вопросах, связанных с электрикой. 
+                        Наша команда может помочь вам с любыми электротехническими проблемами в доме, начиная от замены и монтажа проводки,  установки освещения, до решения более сложных задач.
+                    </div>
+                </div>
+                <div class="tabcontent">
+                    <img src="img/wires.jpeg" alt="wires">
+                    <div class="tabcontent__descr">
+                        Мы здесь, чтобы помочь вам решить любую проблему, связанную с электрикой. 
+                        Нам по плечу многое, будь то ремонт, установка автоматов и электросчётчиков, или замена розеток и выключателей.                                    
+                    </div>
+                </div>
+                <div class="tabcontent">
+                    <img src="img/prices.jpeg" alt="prices">
+                    <div class="tabcontent__descr">
+                        Наша команда готова помочь вам с любыми электротехническими проблемами, начиная от мелких ремонтных работ до установки новых систем. Мы предложим вам качественное обслуживание по доступным ценам.
+                    </div>
+                </div>
+                
+                <div class="tabcontent">
+                    <img src="img/elec.jpg" alt="elec">
+                    <div class="tabcontent__descr">
+                        Мы упростили процесс для вас, чтобы вы могли легко найти нас в любое время и получить быстрый ответ на все ваши вопросы по электрике.
+                    </div>
+                </div>
+                
+                <div class="tabcontent">
+                    <img src="img/wires.jpeg" alt="elite">
+                    <div class="tabcontent__descr">
+                        Наша команда состоит только из профессиональных электриков с многолетним опытом работы в этой области. Мы готовы предоставить качественные услуги, которые помогут вам избежать проблем в будущем.                                     
+                    </div>
+                </div>              
+            
+                <div class="tabcontent">
+                    <img src="img/elec.jpg" alt="vegy">
+                    <div class="tabcontent__descr">
+                        Если вы ищете надёжного партнера в области электрики, обратитесь к нам. Мы гарантируем профессиональный и быстрый сервис, который удовлетворит все ваши потребности.
+                    </div>
+                </div>
+
+                <div class="tabheader">
+                    <h3>Что вас интересует?</h3>
+                    <div class="tabheader__items">
+                        <div class="tabheader__item tabheader__item_active">О нас</div>
+                        <div class="tabheader__item">Услуги</div>
+                        <div class="tabheader__item">Цены</div>
+                        <div class="tabheader__item">Контакты</div>
+                        <div class="tabheader__item">Отзывы</div>
+                        <div class="tabheader__item">Портфолио</div>
+                    </div>
+                </div>
+            </div>
+            <div class="preview__life">Безопасность - прежде всего!</div>
+        </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="offer">
+        <div class="bgc_y"></div>
+        <div class="container">
+            <div class="offer__text">
+                <h2 class="title">Что мы можем вам предложить?</h2>
+                <div class="offer__descr">
+                    Наша основная идея - это безопасность. Строгое соблюдение нами стандартов позволит вам не беспокоиться о качестве работ. Мы учтём существующие исходные данные, и поможем найти решение для конкретной ситуации, подходящее по цене и с гарантированным результатом.
+                </div>
+            </div>
+            <div class="offer__action">
+                <button class="btn btn_dark" data-modal>Связаться с нами</button>
+            </div>
+        </div>
+        <div class="container">
+            <div class="offer__advantages">
+                <h2>Быстро и качественно</h2>
+                <div class="offer__advantages-text">
+                    Самостоятельный ремонт занимает много сил, времени и нервов. 
+                    Если вы не электрик, то, вероятно, не знаете о части рисков, которые могут возникнуть во время работ, 
+                    связанных с электричеством. Подвергать себя лишнему риску не стоит. Мы готовы помочь вам с электрикой. 
+                    Сделаем всё функционально, эстетично и с соблюдением всех норм. Чтобы вы могли заниматься тем, что нравится!
+                </div>
+                <h2>Правильные комплектующие</h2>
+                <div class="offer__advantages-text">
+                    В современном многообразии производителей легко потеряться.
+                    Наши мастера используют материалы, прекрасно зарекомендовавшие себя, 
+                    а также ориентируются в широком спектре брендов и технологий, от классических до современных. 
+                    При составлении проекта ремонта мы поможем выбрать надёжные и безопасные комплектующие. 
+                </div>
+            </div>
+            <div class="offer__slider">
+                <div class="offer__slider-counter">
+                    <div class="offer__slider-prev">
+                        <img src="img/left.svg" alt="prev">
+                    </div>
+                    <span id="current">01</span>
+                    /
+                    <span id="total">04</span>
+                    <div class="offer__slider-next">
+                        <img src="img/right.svg" alt="next">
+                    </div>
+                </div>
+                <div class="offer__slider-wrapper">
+                    <div class="offer__slider-inner">
+                        <div class="offer__slide">
+                            <img src="img/elec-panel.jpeg" alt="elec-panel">
+                        </div>
+                        <div class="offer__slide">
+                            <img src="img/gating.jpeg" alt="gating">
+                        </div>
+                        <div class="offer__slide">
+                            <img src="img/connection.jpeg" alt="connection">
+                        </div>
+                        <div class="offer__slide">
+                            <img src="img/lux.jpeg" alt="lux">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <!-- <div class="calculating">
+        <div class="container">
+            <h2 class="title">Рассчитаем вашу потребность в калориях?
+            </h2>
+            <div class="calculating__field">
+                <div class="calculating__subtitle">
+                    Ваш пол
+                </div>
+                <div class="calculating__choose" id="gender">
+                    <div id="female" class="calculating__choose-item calculating__choose-item_active">Женщина</div>
+                    <div id="male" class="calculating__choose-item">Мужчина</div>
+                </div>
+
+                <div class="calculating__subtitle">
+                    Ваша конституция
+                </div>
+                <div class="calculating__choose calculating__choose_medium">
+                    <input type="text" id="height" placeholder="Введите рост" class="calculating__choose-item">
+                    <input type="text" id="weight" placeholder="Введите вес"  class="calculating__choose-item">
+                    <input type="text" id="age" placeholder="Введите возраст" class="calculating__choose-item">
+                </div>
+
+                <div class="calculating__subtitle">
+                    Выберите вашу физическая активность
+                </div>
+                <div class="calculating__choose calculating__choose_big">
+                    <div data-ratio="1.2" id="low" class="calculating__choose-item">Низкая активность </div>
+                    <div data-ratio="1.375" id="small"  class="calculating__choose-item calculating__choose-item_active">Невысокая активность</div>
+                    <div data-ratio="1.55" id="medium" class="calculating__choose-item">Умеренная активность</div>
+                    <div data-ratio="1.725" id="high" class="calculating__choose-item">Высокая активность</div>
+                </div>
+
+                <div class="calculating__divider"></div>
+
+                <div class="calculating__total">
+                    <div class="calculating__subtitle">
+                        Ваша суточная норма калорий:
+                    </div>
+                    <div class="calculating__result">
+                        <span>2700</span> ккал
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> 
+
+    <div class="divider"></div>-->
+
+    <!-- <div class="menu">
+        <h2 class="title">Услуги наших электриков</h2>
+
+        <div class="menu__field">
+            <div class="container">               
+            </div>
+        </div>
+    </div> -->
+    <div class="menu">
+        <h2 class="title">Наше меню на день</h2>
+
+        <div class="menu__field">
+            <div class="container">
+                <div class="menu__item">
+                    <img src="img/elec.jpg" alt="elec">
+                    <h3 class="menu__item-subtitle">"Установка и замена выключателей и розеток"</h3>
+                    <div class="menu__item-descr">"Как поменять розетку в квартире? С чего начать? Какие инструменты использовать? Какую розетку выбрать, чтобы она  надёжно служила долгое время? Вам не придётся искать ответы на эти вопросы, если вы обратитесь к нам."</div>
+                    <div class="menu__item-divider"></div>
+                    <div class="menu__item-price">
+                        <div class="menu__item-cost">Цена: от </div>
+                        <div class="menu__item-total"><span>150</span> руб</div>
+                    </div>
+                </div>
+                <div class="menu__item">
+                    <img src="img/wires.jpeg" alt="wires">
+                    <h3 class="menu__item-subtitle">"Монтаж электропроводки"</h3>
+                    <div class="menu__item-descr">"Мы занимаемся прокладкой электропроводки как в квартирах в новых домах, так и в рамках перепланировки или ремонта. В своей работе применяем качественный инструмент.  Штробление стен проходит с учётом норм СНиП и соблюдением требований безопасности."</div>
+                    <div class="menu__item-divider"></div>
+                    <div class="menu__item-price">
+                        <div class="menu__item-cost">Цена: от </div>
+                        <div class="menu__item-total"><span>550</span> руб</div>
+                    </div>
+                </div> 
+				<div class="menu__item">
+                    <img src="img/lux.jpeg" alt="lux">
+                    <h3 class="menu__item-subtitle">"Установка и замена систем освещения"</h3>
+                    <div class="menu__item-descr">"Мы предлагаем полный комплекс услуг: от разработки проекта до настройки и подключения оборудования. Если вам нужно заменить светильники в квартире или офисе, мы готовы с этим помочь."</div>
+                    <div class="menu__item-divider"></div>
+                    <div class="menu__item-price">
+                        <div class="menu__item-cost">Цена: от </div>
+                        <div class="menu__item-total"><span>500</span> руб</div>
+                    </div>
+                </div> 
+            </div>
+        </div>
+    </div>
+
+
+    <div class="order">
+        <div class="container">
+            <div class="title">Заказывай консультацию прямо сейчас!</div>
+            <form action="#" class="order__form">
+                <input required placeholder="Ваше имя" name="name" type="text" class="order__input">
+                <input required placeholder="Ваш номер телефона" name="phone" type="phone" class="order__input">
+                <img src="img/right.svg" alt="right">
+                <button class="btn btn_dark btn_min">Перезвонить мне</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="promotion">
+        <div class="bgc_y"></div>
+        <div class="container">
+            <div class="promotion__text">
+                <div class="title">Акция для новых клиентов!</div>
+                <div class="promotion__descr">
+                    Мы ценим каждого клиента и предлагаем вам стать одним из них на очень выгодных условиях. 
+                    Каждому, кто закажет комплексный монтаж проводки в квартире, будет предоставлена скидка в размере <span>10%!</span>
+                    <br><br>
+                    Акция закончится 17 октября в 00:00
+                </div>
+            </div>
+            <div class="promotion__timer">
+                <div class="title">Осталось до конца акции:</div>
+                <div class="timer">
+                    <div class="timer__block">
+                        <span id="days">12</span>
+                        дней
+                    </div>
+                    <div class="timer__block">
+                        <span id="hours">20</span>
+                        часов
+                    </div>
+                    <div class="timer__block">
+                        <span id="minutes">56</span>
+                        минут
+                    </div>
+                    <div class="timer__block">
+                        <span id="seconds">20</span>
+                        секунд
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="social">
+                <div class="subtitle">Мы в социальных сетях:</div>
+                <a href="#" class="link">instagram</a>
+                <a href="#" class="link">facebook</a>
+            </div>
+            <!-- <div>
+            <div class="pepper">-->
+            <div>
+                <img src="img/sockets.jpg" height=110 width = 110 alt="socket">
+            </div>
+            <div class="call">
+                <div class="subtitle">Или позвоните нам</div>
+                <a href="#" class="link">+7999-9999999</a>
+                
+            </div>
+        </div>
+    </footer>
+    <div class="modal hide">
+        <div class="modal__dialog">
+            <div class="modal__content">
+                <form action="#">
+                    <div class="modal__close" data-close>&times;</div>
+                    <div class="modal__title">Мы свяжемся с вами как можно быстрее!</div>
+                    <input required placeholder="Ваше имя" name="name" type="text" class="modal__input">
+                    <input required placeholder="Ваш номер телефона" name="phone" type="phone" class="modal__input">
+                    <button class="btn btn_dark btn_min">Перезвонить мне</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
